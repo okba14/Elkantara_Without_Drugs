@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "vite preview",
-    "postinstall": "npm install && npx tailwindcss -i ./src/input.css -o ./dist/output.css"
+    "postinstall": "npx tailwindcss -i ./src/input.css -o ./dist/output.css"
 
   },
   "dependencies": {
