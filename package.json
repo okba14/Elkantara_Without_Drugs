@@ -8,7 +8,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "vite preview"
+    "start": "vite preview",
+    "postinstall": "npm install && npx tailwindcss -i ./src/input.css -o ./dist/output.css"
+
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
